@@ -14,6 +14,7 @@
 		ACE60D412081436200ABCB41 /* Conversion_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE60D402081436200ABCB41 /* Conversion_CalculatorTests.swift */; };
 		ACE60D4C2081436200ABCB41 /* Conversion_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE60D4B2081436200ABCB41 /* Conversion_CalculatorUITests.swift */; };
 		ACE60D5A2081439F00ABCB41 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE60D592081439F00ABCB41 /* ConverterViewController.swift */; };
+		ACE60D5E2081922C00ABCB41 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE60D5D2081922C00ABCB41 /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ACE60D4B2081436200ABCB41 /* Conversion_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion_CalculatorUITests.swift; sourceTree = "<group>"; };
 		ACE60D4D2081436200ABCB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE60D592081439F00ABCB41 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		ACE60D5D2081922C00ABCB41 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				ACE60D342081436100ABCB41 /* LaunchScreen.storyboard */,
 				ACE60D372081436100ABCB41 /* Info.plist */,
 				ACE60D592081439F00ABCB41 /* ConverterViewController.swift */,
+				ACE60D5D2081922C00ABCB41 /* Converter.swift */,
 			);
 			path = "Conversion Calculator";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE60D2C2081435F00ABCB41 /* AppDelegate.swift in Sources */,
+				ACE60D5E2081922C00ABCB41 /* Converter.swift in Sources */,
 				ACE60D5A2081439F00ABCB41 /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

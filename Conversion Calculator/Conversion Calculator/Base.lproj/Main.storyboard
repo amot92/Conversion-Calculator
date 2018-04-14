@@ -143,6 +143,9 @@
                                 <state key="normal" title="Converter">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="showActionSheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mcL-qR-GCz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -216,6 +219,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="converterButton" destination="QyO-YV-dWT" id="NqR-P2-wMI"/>
                         <outlet property="inputDisplay" destination="ILp-CS-kLg" id="k4X-Cj-gqf"/>
                         <outlet property="outputDisplay" destination="MjE-To-kr6" id="ix8-O2-i7p"/>
                     </connections>
