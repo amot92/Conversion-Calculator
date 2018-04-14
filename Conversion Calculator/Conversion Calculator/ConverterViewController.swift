@@ -10,6 +10,9 @@ import UIKit
 
 class ConverterViewController: UIViewController {
 
+    @IBOutlet weak var outputDisplay: UITextField!
+    @IBOutlet weak var inputDisplay: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
