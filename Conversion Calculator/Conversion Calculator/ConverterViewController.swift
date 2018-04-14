@@ -10,7 +10,7 @@ import UIKit
 
 class ConverterViewController: UIViewController {
 
-    var converters = [
+    let converters = [
         Converter(label: "fahrenheit to celcius", inputUnit: "°F", outputUnit:"°C"),
         Converter(label: "celcius to fahrenheit", inputUnit: "°C", outputUnit:"°F"),
         Converter(label: "miles to kilometers", inputUnit: "mi", outputUnit:"km"),
@@ -27,7 +27,8 @@ class ConverterViewController: UIViewController {
         for converter in converters {
             let action = UIAlertAction(title: converter.label, style: .default, handler: {
                 (alert: UIAlertAction!) -> Void in
-                //TODO
+                self.inputDisplay.text = converter.inputUnit
+                self.outputDisplay.text = converter.outputUnit
             })
             optionMenu.addAction(action)
         }
@@ -35,12 +36,9 @@ class ConverterViewController: UIViewController {
         self.present(optionMenu, animated: true, completion: nil)
     }
     
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let defaultConverter = converters[0]
         inputDisplay.text = defaultConverter.inputUnit
         outputDisplay.text = defaultConverter.outputUnit
